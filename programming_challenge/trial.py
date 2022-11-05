@@ -22,7 +22,7 @@ with open('input.csv', 'r') as csvfile:
         maxHeap.append([distance, x, y])
     merge_sort.mergeSort(maxHeap)
 
-dictionary = {10: [rc], 25: [], 63: [], 159: [], 380: []}
+dictionary = {10: [rc], 25: [rc], 63: [rc], 159: [rc], 380: [rc]}
 def find_points(maxHeap, N):
     furthest = maxHeap[-1][0]
     radius = round(furthest/ N)
