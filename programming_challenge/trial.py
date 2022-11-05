@@ -38,10 +38,16 @@ def find_points(maxHeap, N):
         min_bound += radius
         max_bound += radius
 
+# Challenge: In the case that there is no point within the range, our approach
+#            cannot find enough points. Therefore, we are thinking of reducing the
+#             size of radius to solve this problem
+
 lst = [10,25,63,159,380]
 for i in lst:
     find_points(maxHeap, i)
     with open(f'{i}.csv', 'w', encoding='UTF8') as f:
         writer = csv.writer(f)
         writer.writerow(dictionary[i])
+
+
 
