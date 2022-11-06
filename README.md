@@ -1,1 +1,1 @@
-# cssu-purefacts-fall-2022-firstname-lastname
+# cssu-purefacts-fall-2022-thu-doan-and-samira-dang
