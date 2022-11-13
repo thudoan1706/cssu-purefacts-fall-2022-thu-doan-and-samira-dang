@@ -200,4 +200,5 @@ if __name__ == "__main__":
         dictionary[n] = coordinate_list
         with open(f'{n}.csv', 'w', encoding='UTF8') as f:
             writer = csv.writer(f)
+            f.write(f'length of output {len(dictionary[n])} \n')
             writer.writerow(dictionary[n])
