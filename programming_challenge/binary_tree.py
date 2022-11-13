@@ -84,7 +84,7 @@ class BinarySearchTree:
             return self._right.extract_max()
 
     def extract_min(self) -> float:
-        """Return the maximum item stored in this tree.
+        """Return the minimum item stored in this tree.
 
         Precondition: this tree is *non-empty*.
         """
